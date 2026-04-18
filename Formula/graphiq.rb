@@ -1,23 +1,23 @@
 class Graphiq < Formula
   desc "Code intelligence with structural retrieval — BM25, graph traversal, heuristic reranking"
   homepage "https://github.com/aaf2tbz/graphiq"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/aaf2tbz/graphiq/releases/download/v#{version}/graphiq-aarch64-apple-darwin.tar.gz"
-      sha256 "1d20637dcb58725baace906a50b835e67377ce87155c647d835a2207203af5fc"
+      sha256 "4891d76fd714b8b686e0fa48cb66db02f12aa6bea3d72e6179ed854b7f2353a5"
     end
     on_intel do
       url "https://github.com/aaf2tbz/graphiq/releases/download/v#{version}/graphiq-x86_64-apple-darwin.tar.gz"
-      sha256 "8960f6573dbb206799b5cd630e4631d97d25e66df25844b98156d717e9312774"
+      sha256 "b1536589369ac5bdb3087157caf70732508b43966192757e80237ca958c12d7b"
     end
   end
 
   on_linux do
     url "https://github.com/aaf2tbz/graphiq/releases/download/v#{version}/graphiq-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "ef7164cdf08abe28ad1fb82d025ab50984255a30a7b1afca61f54be5b2cb1475"
+    sha256 "96ffe22dd2d0b4ab98e2ab3464de097e86756c4d2285908c4da5d5d6a877fea5"
   end
 
   def install
