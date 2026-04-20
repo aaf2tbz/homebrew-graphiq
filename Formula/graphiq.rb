@@ -1,17 +1,17 @@
 class Graphiq < Formula
-  desc "Code intelligence with structural retrieval — BM25, graph traversal, heuristic reranking"
+  desc "Structural code intelligence — unified pipeline with BM25, spectral diffusion, holographic matching"
   homepage "https://github.com/aaf2tbz/graphiq"
-  version "0.2.0"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/aaf2tbz/graphiq/releases/download/v#{version}/graphiq-aarch64-apple-darwin.tar.gz"
-      sha256 "4891d76fd714b8b686e0fa48cb66db02f12aa6bea3d72e6179ed854b7f2353a5"
+      sha256 "070906069f77331ed53be7c10724c0d2af209cb33069b46e675c19a5d7960a16"
     end
     on_intel do
       url "https://github.com/aaf2tbz/graphiq/releases/download/v#{version}/graphiq-x86_64-apple-darwin.tar.gz"
-      sha256 "b1536589369ac5bdb3087157caf70732508b43966192757e80237ca958c12d7b"
+      sha256 "0d6cdc07983e5f8b4a38e15924eba97384e99fc10873f5b27cec8b6fe8356bd1"
     end
   end
 
