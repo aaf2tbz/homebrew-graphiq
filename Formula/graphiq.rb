@@ -21,9 +21,9 @@ class Graphiq < Formula
   end
 
   def install
-    bin.install "graphiq-aarch64-apple-darwin" => "graphiq"
-    bin.install "graphiq-mcp-aarch64-apple-darwin" => "graphiq-mcp"
-    bin.install "graphiq-bench-aarch64-apple-darwin" => "graphiq-bench"
+    bin.install "graphiq"
+    bin.install "graphiq-mcp"
+    bin.install "graphiq-bench"
   end
 
   test do
