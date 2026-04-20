@@ -1,13 +1,13 @@
 class Graphiq < Formula
   desc "Structural code intelligence — unified pipeline with BM25, spectral diffusion, holographic matching"
   homepage "https://github.com/aaf2tbz/graphiq"
-  version "0.3.0"
+  version "0.4.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/aaf2tbz/graphiq/releases/download/v#{version}/graphiq-aarch64-apple-darwin.tar.gz"
-      sha256 "070906069f77331ed53be7c10724c0d2af209cb33069b46e675c19a5d7960a16"
+      sha256 "7174e79c97a4ed7e7877c94f562124151d4dd883057a596fa79e02212d9e1ad7"
     end
     on_intel do
       url "https://github.com/aaf2tbz/graphiq/releases/download/v#{version}/graphiq-x86_64-apple-darwin.tar.gz"
@@ -21,9 +21,9 @@ class Graphiq < Formula
   end
 
   def install
-    bin.install "graphiq"
-    bin.install "graphiq-mcp"
-    bin.install "graphiq-bench"
+    bin.install "graphiq-aarch64-apple-darwin" => "graphiq"
+    bin.install "graphiq-mcp-aarch64-apple-darwin" => "graphiq-mcp"
+    bin.install "graphiq-bench-aarch64-apple-darwin" => "graphiq-bench"
   end
 
   test do
