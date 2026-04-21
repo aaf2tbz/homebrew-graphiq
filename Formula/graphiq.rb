@@ -1,23 +1,23 @@
 class Graphiq < Formula
   desc "Structural code intelligence — unified pipeline with BM25, spectral diffusion, holographic matching"
   homepage "https://github.com/aaf2tbz/graphiq"
-  version "0.6.0"
+  version "0.7.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/aaf2tbz/graphiq/releases/download/v#{version}/graphiq-aarch64-apple-darwin.tar.gz"
-      sha256 "49678da44cc2738d0e76c75abbca3d73ac2be6a037696141b2b40393cefffd0b"
+      sha256 "3d6ef9f2c777c502488de63aa5132eb414bc41c2c15168622057f1611235a8c3"
     end
     on_intel do
       url "https://github.com/aaf2tbz/graphiq/releases/download/v#{version}/graphiq-x86_64-apple-darwin.tar.gz"
-      sha256 "99b8c7300e0ea36232d87b97ce25bbeb373bd9ae78ee110a51fdf6b7003ea1d4"
+      sha256 "0884c1853e7753ff3d827d135857cefc1ece540d09fe5564ea089206754561aa"
     end
   end
 
   on_linux do
     url "https://github.com/aaf2tbz/graphiq/releases/download/v#{version}/graphiq-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "21322f2cd4a45cd322bc6f839aea7eed57fbfe2086a68830ff9d4ac0e9701520"
+    sha256 "02f910c31620fb63fd7da88ed5305bb15ba06636b4d2fd0f38181342a80a81cd"
   end
 
   def install
