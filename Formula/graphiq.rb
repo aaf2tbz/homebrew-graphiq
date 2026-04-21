@@ -1,7 +1,7 @@
 class Graphiq < Formula
   desc "Structural code intelligence — unified pipeline with BM25, spectral diffusion, holographic matching"
   homepage "https://github.com/aaf2tbz/graphiq"
-  version "0.7.0"
+  version "0.7.1"
   license "MIT"
 
   on_macos do
