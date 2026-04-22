@@ -7,11 +7,11 @@ class Graphiq < Formula
   on_macos do
     on_arm do
       url "https://github.com/aaf2tbz/graphiq/releases/download/v#{version}/graphiq-aarch64-apple-darwin.tar.gz"
-      sha256 "5c5214ba5474a9b3b60fe488805c723e8a7a23e127e1e4cceb297b037cd62f89"
+      sha256 "5109f5d35d2e9a624a34359f1142d25a48b678b7b3e6b5b8c50984e4fcfa307c"
     end
     on_intel do
       url "https://github.com/aaf2tbz/graphiq/releases/download/v#{version}/graphiq-x86_64-apple-darwin.tar.gz"
-      sha256 "5109f5d35d2e9a624a34359f1142d25a48b678b7b3e6b5b8c50984e4fcfa307c"
+      sha256 "5c5214ba5474a9b3b60fe488805c723e8a7a23e127e1e4cceb297b037cd62f89"
     end
   end
 
