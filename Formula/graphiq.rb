@@ -1,23 +1,23 @@
 class Graphiq < Formula
   desc "Structural code intelligence — BM25 + graph walk search, blast radius, structural context"
   homepage "https://github.com/aaf2tbz/graphiq"
-  version "3.1.2"
+  version "3.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/aaf2tbz/graphiq/releases/download/v#{version}/graphiq-aarch64-apple-darwin.tar.gz"
-      sha256 "347f704a7a94d147d4a57b2be7cffed8b328ccdfa336b2735518162c4909744a"
+      sha256 "e8d19a7d0df4089464745783585ef76c1909cead8c9bf6d48908a140194c539b"
     end
     on_intel do
       url "https://github.com/aaf2tbz/graphiq/releases/download/v#{version}/graphiq-x86_64-apple-darwin.tar.gz"
-      sha256 "492fca95464767e861eb4ffbdf208d0de35b08746c68ee4d7bd51269fd5855ba"
+      sha256 "8bcd2fb0a8943fb1e259b39bee98bc70acf082972e72e9813697998410fd27f3"
     end
   end
 
   on_linux do
     url "https://github.com/aaf2tbz/graphiq/releases/download/v#{version}/graphiq-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "27a20f2d6167ed31b3ffdcbdeb79be3a95504761594366a0b48e14368fbdffd3"
+    sha256 "5b8706b5bd146aea89eda96f5862e5edd6a145e0df4657d83c189171864f7d26"
   end
 
   def install
